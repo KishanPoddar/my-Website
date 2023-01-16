@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div className={`md:hidden text-gray-900 absolute w-2/3 h-screen px-7 py-2 font-medium top-0 bg-white duration-300 ${open?'right-0':'right-[-100%]'}`}>
                     <ul className="flex flex-col justify-center h-full gap-10 py-2 text-lg">
                         {menuLinks?.map((menu, i) => (
-                            <li key={i} className="px-6 hover: text-cyan-600">
+                            <li onClick={()=>setOpen(false)} key={i} className="px-6 hover: text-cyan-600">
                                 <a href={menu?.link}>{menu?.name}</a>
                             </li>
                         ))}
