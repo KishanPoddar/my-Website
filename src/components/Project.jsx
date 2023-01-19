@@ -13,7 +13,7 @@ const Project = () => {
     {img:project, name:'Demo', githubLink:'https://github.com/', downloadLink:'https://drive.google.com'},
   ];
     return (
-        <section id="project" className="py-10 text-white">
+        <section id="projects" className="py-10 text-white">
             <div className="text-center">
                 <h3 className="text-4xl font-semibold">
                     My <span className="text-cyan-600"> Projects</span>
