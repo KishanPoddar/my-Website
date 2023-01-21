@@ -24,8 +24,8 @@ body {
     @apply bg-white
 }
 
-input,textarea{
-    @apply bg-gray-700 outline-none rounded-lg p-3
+input,textarea,.bg-box{
+    @apply bg-gray-700 outline-none rounded-md p-3
 }
 
 ::placeholder{
