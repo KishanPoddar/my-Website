@@ -46,7 +46,9 @@ const Project = () => {
                         projects?.map((ProjectInfo,i)=>(
                           <SwiperSlide key={i} className="mt-5 flex justify-center">
                             <div className="h-fit md:w-full w-9/12 sm:p-4 p-3 bg-slate-700 rounded-xl">
-                                <img src={ProjectInfo.img} alt="" height={500} width={500} className="rounded-lg w-full" />
+                                <div className=" w-full flex justify-center h-64">
+                                    <img src={ProjectInfo.img} alt="" className="rounded-lg object-contain" />
+                                </div>
                                 <h3 className="sm:text-xl text-lg pl-2 my-4">{ProjectInfo.name}</h3>
                                 <div className="flex gap-3 pl-2">
                                     <a href={ProjectInfo.githubLink} target="_blank" className="text-cyan-400 bg-gray-800 md:px-4 px-3 py-2 inline-block rounded-xl md:text-lg text-base">Github</a>
