@@ -16,7 +16,7 @@ const About = () => {
                         
                         {/* resume */}
                         <div className="mt-7">
-                            <a href="./src/assets/kishanResume.pdf" download>
+                            <a href="https://drive.google.com/file/d/1DkJmV4L2NajOwSFW20lA0auewP2YLWyd/view?usp=share_link" target="_blank">
                                 <button className="btn-primary">
                                     Download Resume
                                 </button>
