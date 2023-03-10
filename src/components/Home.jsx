@@ -16,7 +16,7 @@ const Home = () => {
                       <div className="text-cyan-400 lg:text-6xl sm:text-5xl text-4xl">Hello!</div>
                       <div>My name is <span>KISHAN PODDAR</span></div>
                   </h1>
-                  <h4 className="lg:text-2xl sm:text-xl text-sm lg:leading-normal leading-5 mt-2 font-bold text-gray-600">Game Developer | Full Stack Developer | Coder</h4>
+                  <h4 className="lg:text-2xl sm:text-xl text-sm lg:leading-normal leading-5 mt-2 font-bold text-gray-600">Game Developer | Full Stack Developer | Programmer</h4>
                   <button className="btn-primary mt-8 shadow-lg shadow-cyan-400/50"><a href="#contact">Contact Me</a></button>
                   <div className="mt-8 text-3xl flex items-center lg:justify-start justify-center gap-5">
                     {

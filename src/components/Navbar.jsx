@@ -14,9 +14,8 @@ const Navbar = () => {
         <nav className={`fixed w-full left-0 top-0 z-[999] text-white shadow-cyan-400/50`}>
             <div className="flex items-center justify-between ">
                 <div className="mx-7">
-                    <h4 className="text-3xl uppercase font-bold ">&lt;K
-                        <span className="text-cyan-400">P<span className="text-2xl">/</span>&gt;
-                        </span>
+                    <h4 className="text-3xl uppercase font-bold pl-4">&lt;K
+                        <span className="text-cyan-400">P<span className="text-2xl">/</span>&gt;</span>
                     </h4>
                 </div>
 

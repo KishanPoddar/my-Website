@@ -16,7 +16,7 @@ const About = () => {
                         
                         {/* resume */}
                         <div className="mt-7">
-                            <a href="https://drive.google.com/file/d/1DkJmV4L2NajOwSFW20lA0auewP2YLWyd/view?usp=share_link" target="_blank">
+                            <a href="https://drive.google.com/file/d/1RYn7IG9GgG5bKEorpWfip5FPuSIDDIOm/view?usp=share_link" target="_blank">
                                 <button className="btn-primary">
                                     Download Resume
                                 </button>

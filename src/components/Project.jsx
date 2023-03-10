@@ -8,14 +8,18 @@ import jiggleDog from "../assets/JiggleDog.png";
 import spaceShooter from "../assets/SpaceShooter.png";
 import BloggingKishan from "../assets/BloggingKishan.png";
 import KishanBook from "../assets/KishanBook.png";
+import TicTacToe from "../assets/TicTacToe.png";
+import SnakeMania from "../assets/SnakeMania.png";
 
 const Project = () => {
   const projects=[
     {img:flipRunner, name:'Flip Runner', githubLink:'https://github.com/KishanPoddar/Flip-Runner', downloadLink:'https://drive.google.com/file/d/114sNRq2poRgLTDc7uP3q8TquriU3CBit/view?usp=sharing'},
+    {img:SnakeMania, name:'Snake Game', githubLink:'https://github.com/KishanPoddar/Snake-Game', viewLink:'https://snakemaniakishan.netlify.app/'},
     {img:jiggleDog, name:'Jiggle Dog', githubLink:'https://github.com/KishanPoddar/Jiggle-Dog', downloadLink:'https://drive.google.com/file/d/1GHTzWyzf5Z_h-1NUmSsBFv3PPcYPWIWG/view?usp=sharing'},
-    {img:spaceShooter, name:'Space Shooter', githubLink:'https://github.com/KishanPoddar/Space-Shooter', downloadLink:'https://drive.google.com/file/d/1VzqDMdbBcicgJYfJ3rjYHtvXaG3y2S9k/view?usp=share_link'},
-    {img:BloggingKishan, name:'Blogging Kishan', githubLink:'https://github.com/KishanPoddar/Blogging-Website', viewLink:'https://bloggingkishan.onrender.com/'},
     {img:KishanBook, name:'Kishan Book', githubLink:'https://github.com/KishanPoddar/KishanBook', viewLink:'https://kishanbook.onrender.com/'},
+    {img:BloggingKishan, name:'Blogging Kishan', githubLink:'https://github.com/KishanPoddar/Blogging-Website', viewLink:'https://bloggingkishan.onrender.com/'},
+    {img:spaceShooter, name:'Space Shooter', githubLink:'https://github.com/KishanPoddar/Space-Shooter', downloadLink:'https://drive.google.com/file/d/1VzqDMdbBcicgJYfJ3rjYHtvXaG3y2S9k/view?usp=share_link'},
+    {img:TicTacToe, name:'Tic Tac Toe', githubLink:'https://github.com/KishanPoddar/Tic-Tac-Toe', viewLink:'https://tictactoekishan.netlify.app/'},
   ];
     return (
         <section id="projects" className="py-10 text-white">
@@ -29,7 +33,6 @@ const Project = () => {
             <div className="flex max-w-6xl px-5 mt-9 mx-auto items-center relative">
                 <div className="w-full">
                     <Swiper
-                        // slidepreview={1.2}   
                         spaceBetween={30}
                         breakpoints={{
                             768:{
@@ -38,7 +41,8 @@ const Project = () => {
                         }}
                         loop={true}
                         autoplay={{
-                            delay: 3000
+                            delay: 2000,
+                            disableOnInteraction: false,
                         }}
                         pagination={{
                             clickable: true,
